@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #163505;
+    background-color: #340535;
     padding: 10px 0;
 
 }
@@ -18,9 +18,9 @@ header {
 
 #divcenter {
     background-color: white;
-    min-height: 500px;
+    height: 90%;
     display: flex;
-
+	height: 80vh;
 }
 
 #esquerda {
@@ -29,9 +29,8 @@ header {
 }
 
 #direita {
-	min-height: 500px;
     width: 25%;
-    background-color: #c8dbaa;
+    background-color: #aaaedb;
     padding: 20px;
     text-align: center;
 }
@@ -48,11 +47,10 @@ h4 {
 }
 
 footer {
-    background-color: #265f07cb;
+    background-color: #07225fcb;
     color: white;
     text-align: center;
-    
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 #final {
@@ -73,6 +71,22 @@ img {
     width: 50px;
 }
 
+#separator{
+	
+     justify-content: center;
+	 display: flex;
+}
+
+#pt {
+	
+	margin-left: 5px;
+	margin-top: 13px;
+    height: 20px;
+    width: 20px;
+	
+}
+
+
 @media screen and (max-width: 600px) {
     *{
         box-sizing: border-box;
@@ -84,16 +98,14 @@ img {
     }
 
     #esquerda {
-		min-height: 600px;
+		height: 80vh;
         padding: 10px; 
-		width: 100%;
         width: auto;
 		margin-top: 0;
     }
 	#direita {
-		min-height: 300px;
+		height: 80vh;
         padding: 10px; 
-		width: 100%;
         width: auto;
 		margin-top: 0;
     }
