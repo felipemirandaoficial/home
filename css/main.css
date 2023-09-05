@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+
 }
 
 header {
@@ -17,8 +18,9 @@ header {
 
 #divcenter {
     background-color: white;
-    height: auto;
+    min-height: 500px;
     display: flex;
+
 }
 
 #esquerda {
@@ -27,6 +29,7 @@ header {
 }
 
 #direita {
+	min-height: 500px;
     width: 25%;
     background-color: #c8dbaa;
     padding: 20px;
@@ -74,20 +77,24 @@ img {
     *{
         box-sizing: border-box;
     }
-    #direita {
-        margin-top: 0;
-    }
-    
-    #direita {
-        width: auto;
-    }
 
     #divcenter {
         display: flex;
         flex-direction: column;
     }
 
-    #esquerda, #direita {
+    #esquerda {
+		min-height: 600px;
         padding: 10px; 
+		width: 100%;
+        width: auto;
+		margin-top: 0;
+    }
+	#direita {
+		min-height: 300px;
+        padding: 10px; 
+		width: 100%;
+        width: auto;
+		margin-top: 0;
     }
 }
